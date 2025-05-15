@@ -1,0 +1,59 @@
+# Ignore system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Ignore log files
+*.log
+
+# Ignore temporary/cache files
+*.tmp
+*.temp
+
+# Ignore backup files
+*.bak
+*.old
+*.swp
+*.swo
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore Visual Studio and C++ build files
+*.obj
+*.pdb
+*.idb
+*.aps
+*.ncb
+*.sdf
+*.suo
+*.opensdf
+*.ipch
+*.tlog
+*.lastbuildstate
+*.user
+*.vcxproj.user
+*.VC.db
+
+# Ignore build and debug folders
+Debug/
+Release/
+x64/
+x86/
+build/
+
+# Ignore Cisco Packet Tracer data
+AppData/Local/Cisco Packet Tracer/
+
+# Ignore Windows system files
+AppData/
+*.lnk
+
+# Ignore Windows database files with permission issues
+AppData/Local/Comms/
+
+# Ignore Git lock file (in case of crash)
+.git/index.lock
+
+.vs/
+
