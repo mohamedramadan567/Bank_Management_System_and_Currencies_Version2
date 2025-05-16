@@ -27,8 +27,7 @@ class clsTransactionsScreen : protected clsScreen
 
     static void _ShowDepositScreen()
     {
-        clsDepositScreen::ShowDepositScreen();
-        _GoBackToTransactionsMenue();
+        clsDepositScreen::ShowDepositScreen();        
     }
 
     static void _ShowWithdrawScreen()
@@ -99,6 +98,7 @@ class clsTransactionsScreen : protected clsScreen
         }
         case enTransactionsMenueOptions::eShowMainMenue:
         {
+            //do nothing here the main screen will handle it :-) ;
             break;
         }
         }
