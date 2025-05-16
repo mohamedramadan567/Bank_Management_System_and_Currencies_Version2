@@ -102,10 +102,10 @@ public:
 
     static void ShowCurrencyExchangeMenue()
     {
-        /*if (!CheckAccessRigths(clsUser::enPermissions::pManageUsers))
+        if (!CheckAccessRigths(clsUser::enPermissions::pCurrencyExchange))
         {
             return;
-        }*/
+        }
         system("cls");
         _DrawShowHeader("   Currency Exchange Main Screen");
         cout << setw(37) << "" << "============================================\n";
