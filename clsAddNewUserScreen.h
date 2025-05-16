@@ -123,6 +123,13 @@ class clsAddNewUserScreen : protected clsScreen
             Permissions += clsUser::enPermissions::pLoginRegister;
         }
 
+        cout << "\nCurrency Exchange? y/n? ";
+        Answer = clsInputValidate::ReadYandN();
+        if (Answer)
+        {
+            Permissions += clsUser::enPermissions::pCurrencyExchange;
+        }
+
         return Permissions;
     }
 
